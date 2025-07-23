@@ -16,6 +16,9 @@ Este repositório contém a implementação de uma classe Python para controle d
 - **`.gitignore`**: 
   Arquivo para ignorar arquivos e pastas que não devem ser rastreados pelo Git, como `__pycache__`, ambientes virtuais (`venv/`), e arquivos temporários.
 
+- **`requirements.txt`**:
+  Lista as dependências necessárias para o projeto, como `pyserial`.
+
 ### Funcionalidades da Classe `Printer`
 
 1. **Conexão com a impressora**:
@@ -34,6 +37,7 @@ Este repositório contém a implementação de uma classe Python para controle d
 
 4. **Monitoramento**:
    - Status em tempo real da impressora (ex.: status do papel, erros).
+   - Extração de bits específicos do status, como o **Bit 7**.
 
 5. **Controle**:
    - Retração do papel.
@@ -46,7 +50,7 @@ Este repositório contém a implementação de uma classe Python para controle d
 - Python 3.x
 - Biblioteca `pyserial` para comunicação serial:
   ```bash
-  pip install pyserial
+  pip install -r requirements.txt
   ```
 
 ### Exemplo de uso
@@ -67,9 +71,10 @@ printer.print_coupon(
     paper_width=80
 )
 
-# Monitorar status do papel
+# Monitorar status do papel e extrair o Bit 7
 status = printer.get_real_time_status(1)
-print(f"Status do papel: {status}")
+bit_7 = (int.from_bytes(status, 'big') >> 7) & 1
+print(f"Bit 7 do status do papel: {bit_7}")
 ```
 
 ## Contribuição
