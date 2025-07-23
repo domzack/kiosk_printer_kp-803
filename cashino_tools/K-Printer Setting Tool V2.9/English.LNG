@@ -1,0 +1,348 @@
+[FrmMain]
+Caption=K-Printer Setting Tool V2.9
+lbl_language.Caption=—°‘Ò”Ô—‘(Language)
+GroupBox1.Caption=Selete communication Port
+Label1.Caption=BaudRate
+Label2.Caption=Parity
+Label3.Caption=Port
+RadioButton1.Caption=COM
+RadioButton2.Caption=NET
+RadioButton3.Caption=USB
+RadioButton4.Caption=LPT
+btn_Test.Caption=Check Port
+btn_SetPara.Caption=Enter Para Setting
+but_bootIn.Caption=Entering BOOT mode
+but_bootOut.Caption=Exit BOOT mode
+ 
+[FrmPara]
+Caption=K-Printer Setting Tool V2.9
+Label6.Caption=IDLE TIME:
+Label8.Caption=S
+Label7.Caption=OFF TIME:
+Label9.Caption=S
+TabSheet1.Caption=Base
+GroupBox1.Caption=ReSet Setting Param
+btn_SetReSet.Caption=Default parameters Setting
+GroupBox2.Caption=Base parameters
+lbl_bauRate.Caption=BaudRate£∫
+lbl_Flowcontrol.Caption=Flow control:
+Label1.Caption=CodePage:
+btn_SetBauRate.Caption=Set
+btn_SetCodepage.Caption=Set
+btn_flowcontrol.Caption=Set
+btn_SetAllPara.Caption=All parameters Setting
+Label4.Caption=Density:
+Label5.Caption=LINE:
+Label3.Caption=Font:
+btn_SetForcepaper.Caption=Set
+chk_buzzer.Caption=Buzzer
+chk_Drawer.Caption=Drawer
+chk_CutPaper.Caption=Cutter
+chk_AutoprintLast.Caption=Auto Reprint The Last Receipt
+Label38.Caption=IDLE TIME:
+Label39.Caption=S
+Label40.Caption=OFF TIME:
+Label41.Caption=S
+btn_SetpoweroffTime.Caption=Set
+TabSheet2.Caption=Bluetooth
+GroupBox3.Caption=Bluetooth Set
+Label10.Caption=BT Name
+Label11.Caption=Daul BT Name
+Label12.Caption=Password
+Label13.Caption=BT Mode Vender
+rg_lyMode.Caption=Choose Mode
+rg_lyPswcheck.Caption=Password authentication Setting
+btn_SetlyPara.Caption=Set
+grp1.Caption=BT communication
+btn_SendLYTxt.Caption=Send BT control instructions
+grp2.Caption=Woke Mede
+lbl2.Caption=BT Woke Mede
+btn_lyWorkMode.Caption=Set
+TabSheet3.Caption=WIFI
+btn_CloseWifi.Caption=Close WIFI
+GroupBox4.Caption=Key
+Label14.Caption=SSID
+lbl_CutpapreType.Caption=CutterType
+lbl1.Caption=SSID
+rg_3.Caption=Auth Type
+rg_2.Caption=Encryp
+btn_SetAPMode.Caption=Set
+RadioGroup1.Caption=Auth Type
+rg_1.Caption=Encryp
+GroupBox5.Caption=IP Set
+lbl18.Caption=IP
+lbl19.Caption=Netmask
+lbl20.Caption=Gateway
+lbl21.Caption=Port
+rb_AutoIp.Caption=DHCP
+rb_StaticIP.Caption=Static IP
+rb_WifiAp.Caption=WIFI-AP Mode
+btn_SetSTAMode.Caption=Set
+TabSheet4.Caption=Ethernet
+Label24.Caption=IP
+Label25.Caption=MAC
+btn_NetWorkSetIP.Caption=Set
+TabSheet5.Caption=Ircomm
+Label26.Caption=IR BaudRate
+Label27.Caption=IR Protocol
+rb_notInfrared.Caption=No Use Ircomm
+rb_Infrared.Caption=Use Ircomm
+btn_SetInfraredPara.Caption=Set
+TabSheet6.Caption=Download
+GroupBox8.Caption=Update FW
+Label28.Caption=Select the printer firmware
+btn_OpenPrg.Caption=Browse
+btn_UpdatePrg.Caption=Update
+bt_firmware.Caption=Firmware Update
+GroupBox9.Caption=Update Font
+Label29.Caption=Select the printer Font
+Label30.Caption=Start address
+btn_OpenFont.Caption=Browse
+btn_UpdateFont.Caption=Update
+GroupBox10.Caption=NV-LOGO
+btn_OpenLogo.Caption=ADD
+btn_DeleteLogo.Caption=Delete
+btn_DownLogo.Caption=Download
+btn_EpsonDn.Caption=Down1C 71
+btn_PrintLogo.Caption=Print
+GroupBox11.Caption=Loading Font
+Label31.Caption=Starting
+Label32.Caption=Length
+btn_ReadFont.Caption=loading
+TabSheet7.Caption=Information
+GroupBox12.Caption=Device Name
+Label33.Caption=System
+Label34.Caption=S/N
+edt_DeviceSerialNo.Caption=1704269998
+btn_SetDevicePara.Caption=Set
+GroupBox13.Caption=Hardware
+Label35.Caption=USB  Type
+Label36.Caption=Paper Type
+Label37.Caption=Character Direction
+ 
+Label2.Caption=choose bluetooth
+btn_SetUsbDeviceType.Caption=Set
+btn_SetPaperType.Caption=Set
+btn_SetPrinterOrder.Caption=Set
+btn_SetRptTime.Caption=Set
+btn_bluetooth.Caption=Set
+lbl3.Caption=Retracting Time
+lbl5.Caption=Waiting Time
+lbl6.Caption=S
+lbl4.Caption=S
+TabSheet8.Caption=BlackMark
+Gbx_black_mode.Caption=Setting black mark
+bt_Set_black_mode.Caption=Setting black mode
+bt_Cance_black_mark.Caption=Canceling  black 
+Label15.Caption=Black mark lookup distance
+Label17.Caption=Black mark width
+Label18.Caption=The distance the optocoupler and the cutter
+Label43.Caption=The distance the optocoupler and the print head
+bt_Lookup_black_mark.Caption=Lookup black mark
+But_Black_look_dis_Set.Caption=Set
+bt_Black_width_Set.Caption=Set
+bt_cutter_optocoupler_Set.Caption=Set
+bt_printer_opto_Set.Caption=Set
+bt_Cutting_paper.Caption=Cutting paper
+Label24.Caption=IP address
+Label45.Caption=subnet mask
+Label46.Caption=Gateway
+Label48.Caption=Port
+btn_NetWorkSetIP.Caption=Set up
+btn_Subnetmask.Caption=Set up
+btn_gatewayt.Caption=Set up
+btn_netgatewayt.Caption=Set up
+btn_Netport.Caption=Set up
+
+
+btn__Set_black_mode.caption =Enable
+btn__Cance_black_mark.caption=Disable
+lbl7.Caption =BM LENTH
+lbl8.Caption=mm
+btn_But_Black_look_dis_Set.Caption=Set
+edt__Black_look_distance.Hint=Numerical Range 400~4000
+lbl9.Caption=BM WIDTH
+edt__Black_width.Hint=Numerical Range40~120
+lbl10.Caption=mm
+btn__Black_width_Set.Caption=Set
+lbl11.Caption=FEED AFTER BM
+edt_cutter_optocoupler.Hint=Numerical Range 0-1700
+lbl12.Caption=mm CUT
+btn_1.Caption=Set
+lbl13.Caption=FEED AFTER BM
+lbl14.Caption=mm Print
+btn_2.Caption=Set
+btn_3.Caption=Find BM
+btn_4.Caption=Find BM and cut
+btn_5.Caption=Print Test
+
+grp9.Caption=AP-Mode
+lbl16.Caption=ESSID
+lbl17.Caption=PASSWD
+lbl15.Caption=PASSWD
+grp8.Caption=STA-Mode
+
+lbl22.caption=Paper Width
+btn_SetPaperSize.caption=Set
+grp10.caption=Customized Command
+btn_SendData.caption=Send
+btn_Clear.caption=Empty
+btn_OpenEthernet.caption=Open
+btn_CloseEthernet.Caption=Close
+
+
+chk1.Caption=Feed Button Off/On
+btn_SetFeedKey.Caption=Set
+btn_SetLcdDark.Caption=Set
+lbl23.Caption=Density Level
+lbl24.Caption=Feed Button
+
+
+lbl25.Caption=Protocol
+lbl26.Caption=Paper Jam
+btn_SetProtocol.Caption=Set
+btn_6.Caption=Set
+
+btn_SetTime.Caption=Setting Time 
+btn_GetTime.Caption=Getting Time
+lbl_printspeed.caption=Print Speed 
+btn_SetPrintSpeed.caption= Set
+
+
+TabSheet9.Caption=Other
+
+
+
+[LcdDark Des]
+0=Density Level 1
+1=Density Level 2
+2=Density Level 3
+3=Density Level 4
+4=Density Level 5
+5=Density Level 6
+6=Density Level 7
+7=Density Level 8
+
+
+[feed key Des]
+0=Off
+1=On
+
+[Dark description]
+0=Light
+1=Normal
+2=Little Dark
+3=Dark
+
+[BlueToolth WorkMode]
+0=High speed mode
+1=Standard mode
+
+[Check Mode]
+0=OPEN
+1=SHARE
+2=WPA-PSK
+3=WAP2-PSK
+
+[irda Protecl]
+0=Original
+1=IRDA
+
+[USB Device Type]
+0=USB Serial Port
+1=USB Printing Support
+
+[Paper Type]
+0=Thermosensitive Paper
+1=Thermosensitive Label Paper
+2=Thermal paper with gap
+3=Thermosensitive BlackMark
+
+[Printer Order]
+0=Reverse
+1=Standard
+
+[Trans Mode]
+0=Current:COM
+1=Current:NET
+2=Current:USB
+3=Current:LPT
+
+
+[Blue ToolthMode]
+0=No Bluetooth installation
+1=Single mode bluetooth
+2=Dual mode bluetooth
+
+[Blue PSWCheck]
+0=Need PW authentication
+1=No PW authentication
+2=Without a PW authentication
+
+[Bluetooth SEEK]
+0=enable bluetooth
+1=cancel bluetooth invisibility
+
+[Flow control]
+0=software flow control
+1=hardware flow control
+
+
+[CutPaper Type]
+0=Not cutting
+1=Cut the last ticket
+2=Cut by command
+3=Single sheet cut
+
+[Paper SizeType]
+0=2Inch
+1=3Inch
+2=4Inch
+3=1Inch
+
+[string]
+sConnectErrorstr = Unsuccessful connection£¨please find the right COM port and BaudRate
+sConnectOKStr=Successful connection
+SIPError=Incorrect IP adress
+SMaskError=Incorrect subnet mask
+sGatewayError=Incorrect gateway  
+sOpenPrgFile=Choose program file
+sUpdatePrgFile=Update program file
+sUpdateFontFile=Update Font File
+sOpenFontFile=Choose Font File
+sDnLogFileMsg=The file size can''t be over %d K 
+sBaudrateMsg=Setting baud rate as:%d
+sUploadMsg=Upload completed
+sWaitMsg=Waiting...
+sFinishPrg=Update program completed
+sMsg1=The device name cannot be empty
+sMsg2=The device serial number cannot be empty
+sMsg3=Connecting...
+sMsg4=Connecting Finished
+sMsg5=WIFI IP AP Setting successful
+sMsg6=WIFI parameter Setting successful
+sMsg7=WIFI IP Setting successful
+sMsg8=IR parameter Setting successful
+sMsg9=Device parameters Setting successful
+sMsg10=Sleep and power off time Setting successful
+sMsg11=All parameters Setting successful
+sMsg12=Device switch options Setting successful
+sMsg13=Bluetooth parameters Setting successful
+sMsg14=Bluetooth control commands are sent successfully.
+sMsg15=IP Setting successful
+sMsg16=Default parameters Setting successful  
+sMsg17=Code page Setting successful
+sMsg18=BaudRate Setting successful
+sMsg19=The password of WEP-H is fixed at 10 digits
+sMsg20=The WEP-A password is fixed to 5 or 13 digits
+sMsg21=AES and TPIK passwords must be °›8 digits
+sMsg22=Set the Retracting time successfully
+sMsg23=Program file error
+sMsg25=Setting up Flow Control Successfully
+sMsg26=Print size switch succeeded
+sMsg27=successfully set
+
+BlackErrorStr1=Black mark search distance is wrong
+BlackErrorStr2= Black mark width is wrong
+BlackErrorStr3=value of paper feed is wrong
+

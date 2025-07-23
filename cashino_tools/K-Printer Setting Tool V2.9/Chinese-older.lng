@@ -1,0 +1,353 @@
+[FrmMain]
+Caption=K-Printer Setting Tool V2.9
+lbl_language.Caption=选择语言(Language)
+GroupBox1.Caption=选择通讯端口
+Label1.Caption=波特率
+Label2.Caption=校验
+Label3.Caption=端口
+RadioButton1.Caption=串口
+RadioButton2.Caption=网口
+RadioButton3.Caption=USB
+RadioButton4.Caption=并口
+btn_Test.Caption=测试通讯
+btn_SetPara.Caption=设置参数
+but_bootIn.Caption=进入BOOT模式
+but_bootOut.Caption=退出BOOT模式
+
+[FrmPara]
+Caption=K-Printer Setting Tool V2.9
+Label6.Caption=休眠时间:
+Label8.Caption=秒
+Label7.Caption=关机时间:
+Label9.Caption=秒
+TabSheet1.Caption=基础设置
+GroupBox1.Caption=恢复默认设置
+btn_SetReset.Caption=恢复默认设置
+GroupBox2.Caption=基本参数
+lbl_bauRate.Caption=波特率：
+lbl_Flowcontrol.Caption=流控:
+Label1.Caption=设置语言:
+btn_SetBauRate.Caption=设置
+btn_SetCodepage.Caption=设置
+btn_flowcontrol.Caption=设置
+btn_SetAllPara.Caption=设置全部参数
+Label4.Caption=打印浓度:
+Label5.Caption=进纸:
+Label3.Caption=字体设置:
+btn_SetForcepaper.Caption=设置
+chk_buzzer.Caption=蜂鸣器
+chk_Drawer.Caption=钱箱
+chk_CutPaper.Caption=切刀
+chk_AutoprintLast.Caption=自动打印最后一单
+Label38.Caption=休眠时间:
+Label39.Caption=秒
+Label40.Caption=关机时间:
+Label41.Caption=秒
+btn_SetpoweroffTime.Caption=设置
+TabSheet2.Caption=蓝牙设置
+GroupBox3.Caption=蓝牙设置
+Label10.Caption=蓝牙名称
+Label11.Caption=双模蓝牙名称
+Label12.Caption=蓝牙密码
+Label13.Caption=蓝牙型号
+rg_lyMode.Caption=蓝牙模式
+rg_lyPswcheck.Caption=密码鉴权
+btn_SetlyPara.Caption=设置
+grp1.Caption=蓝牙通讯
+btn_SendLYTxt.Caption=发送蓝牙控制指令
+grp2.Caption=工作模式
+lbl2.Caption=蓝牙工作模式
+btn_lyWorkMode.Caption=设置
+TabSheet3.Caption=WIFI设置
+btn_CloseWifi.Caption=关闭WIFI
+Label14.Caption=网络名称
+lbl_CutpapreType.Caption=切刀类型
+lbl1.Caption=SSID
+rg_3.Caption=加密方式
+rg_2.Caption=加密方式
+btn_SetAPMode.Caption=设置
+RadioGroup1.Caption=认证模式
+rg_1.Caption=加密方式
+GroupBox5.Caption=IP设置
+lbl18.Caption=IP 地址
+lbl19.Caption=子网掩码
+lbl20.Caption=网关
+lbl21.Caption=端口
+rb_AutoIp.Caption=动态IP
+rb_StaticIP.Caption=静态IP
+rb_WifiAp.Caption=WIFI-AP 模式
+btn_SetSTAMode.Caption=设置
+TabSheet4.Caption=网络设置
+Label24.Caption=IP 地址
+Label25.Caption=Device
+btn_NetWorkSetIP.Caption=设置
+TabSheet5.Caption=红外设置
+Label26.Caption=红外波特率
+Label27.Caption=红外协议
+rb_notInfrared.Caption=不启用红外
+rb_Infrared.Caption=启用红外
+btn_SetInfraredPara.Caption=设置
+TabSheet6.Caption=程序下载
+GroupBox8.Caption=程序更新
+Label28.Caption=选择打印机固件
+btn_OpenPrg.Caption=浏览
+btn_UpdatePrg.Caption=更新
+bt_firmware.Caption=固件更新
+GroupBox9.Caption=更新字库
+Label29.Caption=选择字库文件
+Label30.Caption=字库起始地址
+btn_OpenFont.Caption=浏览
+btn_UpdateFont.Caption=更新
+GroupBox10.Caption=NV-LOGO
+btn_OpenLogo.Caption=浏览
+btn_DeleteLogo.Caption=删除
+btn_DownLogo.Caption=下载
+btn_EpsonDn.Caption=下载(1C 71)
+btn_PrintLogo.Caption=打印
+GroupBox11.Caption=加载字库
+Label31.Caption=起始地址
+Label32.Caption=读取长度
+btn_ReadFont.Caption=读取
+TabSheet7.Caption=产品设置
+GroupBox12.Caption=设备名称
+Label33.Caption=产品(系统)名称
+Label34.Caption=产品序列号
+edt_DeviceSerialNo.Caption=1704269998
+btn_SetDevicePara.Caption=设置
+GroupBox13.Caption=硬件设置
+Label35.Caption=USB 设备类型
+Label36.Caption=纸张类型
+Label37.Caption=打印顺序
+lbl3.Caption=票据回收时间
+Label2.Caption=蓝牙选择
+btn_SetUsbDeviceType.Caption=设置
+btn_SetPaperType.Caption=设置
+btn_SetPrinterOrder.Caption=设置
+btn_SetRptTime.Caption=设置
+btn_bluetooth.Caption=设置
+lbl3.Caption=票据回收时间
+lbl5.Caption=等待时间
+lbl6.Caption=秒
+lbl4.Caption=秒
+TabSheet8.Caption=黑标
+Gbx_black_mode.Caption=设置黑标
+bt_Set_black_mode.Caption=设置黑标模式
+bt_Cance_black_mark.Caption=取消黑标
+Label15.Caption=黑标查找距离
+Label17.Caption=黑标宽度
+Label18.Caption=光耦与切刀的距离
+Label43.Caption=光耦与打印头的距离
+bt_Lookup_black_mark.Caption=查找黑标
+But_Black_look_dis_set.Caption=设置
+bt_Black_width_set.Caption=设置
+bt_cutter_optocoupler_set.Caption=设置
+bt_printer_opto_set.Caption=设置
+bt_Cutting_paper.Caption=切刀切纸
+Label24.Caption=IP 地址
+Label45.Caption=子网掩码
+Label46.Caption=网关
+Label48.Caption=端口
+btn_NetWorkSetIP.Caption=设置
+btn_Subnetmask.Caption=设置
+btn_gatewayt.Caption=设置
+btn_netgatewayt.Caption=设置
+btn_Netport.Caption=设置
+
+
+
+btn__Set_black_mode.caption =设置黑标模式
+btn__Cance_black_mark.caption=取消黑标模式
+lbl7.Caption =黑标查找距离
+lbl8.Caption=mm
+btn_But_Black_look_dis_set.Caption=设置
+edt__Black_look_distance.Hint=值在400~4000
+lbl9.Caption=黑标宽度
+edt__Black_width.Hint=值在40~120
+lbl10.Caption=mm
+btn__Black_width_set.Caption=设置
+lbl11.Caption=找到黑标后进纸
+edt_cutter_optocoupler.Hint=值在0-1700
+lbl12.Caption=mm 切纸
+btn_1.Caption=设置
+lbl13.Caption=找到黑标后进纸
+lbl14.Caption=mm 打印
+btn_2.Caption=设置
+btn_3.Caption=查找黑标
+btn_4.Caption=查找黑标并切纸
+btn_5.Caption=打印测试
+
+
+grp9.Caption=AP-模式
+lbl16.Caption=广播名
+lbl17.Caption=密码
+lbl15.Caption=密码
+grp8.Caption=STA-模式
+
+
+ 
+lbl22.caption=纸张规格
+btn_SetPaperSize.caption=设置
+grp10.caption=自定义指令
+btn_SendData.caption=发送
+btn_Clear.caption=清空
+btn_OpenEthernet.caption=打开网口
+btn_CloseEthernet.Caption=关闭网口
+
+
+
+chk1.Caption=走纸键关闭/开启
+btn_SetFeedKey.Caption=设置
+btn_SetLcdDark.Caption=设置
+lbl23.Caption=浓度等级
+lbl24.Caption=走纸键
+
+
+lbl25.Caption=打印机协议
+lbl26.Caption=堵纸侦测
+btn_SetProtocol.Caption=设置
+btn_6.Caption=设置
+
+btn_SetTime.Caption=设置时钟1
+btn_GetTime.Caption=获取时钟1
+lbl_printspeed.caption=打印速度1 
+btn_SetPrintSpeed.caption=设置
+
+[LcdDark Des]
+0=浓度等级1
+1=浓度等级2
+2=浓度等级3
+3=浓度等级4
+4=浓度等级5
+5=浓度等级6
+6=浓度等级7
+7=浓度等级8
+
+[feed key Des]
+0=关闭
+1=开启
+
+[Dark description]
+0=微淡
+1=正常
+2=微浓
+3=高浓度
+
+[BlueToolth WorkMode]
+0=高速模式
+1=正常模式
+
+[Check Mode]
+0=开放系统
+1=共享系统
+2=WPA-PSK
+3=WAP2-PSK
+
+[irda Protecl]
+0=原始红外
+1=IRDA
+
+[USB Device Type]
+0=USB虚拟串口
+1=USB打印口
+
+[Paper Type]
+0=热敏票据纸
+1=热敏标签纸
+2=热敏孔洞纸
+3=热敏黑标纸
+
+[Printer Order]
+0=倒序
+1=正序
+
+[Trans Mode]
+0=当前选择串口
+1=当前选择以太网
+2=当前选择USB
+3=当前选择并口
+
+[Blue ToolthMode]
+0=未安装蓝牙
+1=单模蓝牙
+2=双模蓝牙
+
+[Blue PSWCheck]
+0=需要密码鉴权
+1=不需要密码鉴权
+2=不需要密码鉴权
+[Bluetooth SEEK]
+0=开启蓝牙隐身
+1=取消蓝牙隐身
+
+
+[Flow control]
+0=软件流控
+1=硬件流控
+
+[CutPaper Type]
+0=不切
+1=最后一张切
+2=指令切
+3=单张切
+
+[Paper SizeType]
+0=2寸
+1=3寸
+2=4寸
+3=1寸
+
+[string]
+sConnectErrorstr =通讯失败，请选择正确的端口和波特率
+sConnectOKStr=连接成功
+SIPError=IP 地址不正确
+SMaskError=子网掩码不正确
+sGatewayError=网关不正确
+sOpenPrgFile=选择程序文件
+sUpdatePrgFile=更新程序
+sUpdateFontFile=更新字库
+sOpenFontFile=选择字库文件
+sDnLogFileMsg=BMP 文件不能超过%d K
+sBaudrateMsg=波特率设置为:%d
+sUploadMsg=上传完成
+sWaitMsg=等待...
+sFinishPrg=更新程序完成
+sMsg1=设备名称不能为空
+sMsg2=设备序列号不能为空
+sMsg3=连接...
+sMsg4=连接完成
+sMsg5=设置 WIFI IP AP 成功
+sMsg6=设置WIFI 参数成功
+sMsg7=设置WIFI IP成功
+sMsg8=设置红外参数成功
+sMsg9=设置设备参数成功
+sMsg10=设置休眠时间，关机时间成功
+sMsg11=设置所有参数成功
+sMsg12=设置设备开关选项成功
+sMsg13=设置蓝牙参数成功
+sMsg14=蓝牙控制指令发送成功
+sMsg15=设置IP 成功
+sMsg16=设置默认参数成功
+sMsg17=设置代码页成功
+sMsg18=设置波特率成功
+sMsg19=WEP-H的密码固定是10位
+sMsg20=WEP-A的密码固定是5位或13位
+sMsg21=AES和TPIK的密码要≥8位
+sMsg22=设置票据回收时间成功
+sMsg23=程序文件错误
+sMsg24=文件不存在
+sMsg25=设置流控成功
+ 
+sMsg26=打印尺寸切换成功
+sMsg27=设置完成
+
+
+BlackErrorStr1=黑标查找距离值不对
+BlackErrorStr2=黑标宽度值不对
+BlackErrorStr3=找到黑标后，进纸值不对
+
+
+
+
+
+
+
